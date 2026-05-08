@@ -65,7 +65,7 @@ Frontend runs on `http://localhost:5173`
 ![Dashboard](Dashboard.jpg)
 
 ### Swagger API Documentation
-![Swagger](Swagger API.jpg)
+![Swagger](Swagger.jpg)
 
 ## Environment Setup
 
