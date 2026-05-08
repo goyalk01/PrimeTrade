@@ -59,13 +59,13 @@ Frontend runs on `http://localhost:5173`
 ## Screenshots
 
 ### Login Page
-![Login](./screenshots/login.png)
+![Login](login.jpg)
 
 ### Task Dashboard
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](Dashboard.jpg)
 
 ### Swagger API Documentation
-![Swagger](./screenshots/swagger.png)
+![Swagger](Swagger API.jpg)
 
 ## Environment Setup
 
