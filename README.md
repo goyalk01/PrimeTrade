@@ -2,6 +2,8 @@
 
 A task management REST API built with Express, Prisma, and MySQL. Includes JWT authentication, role-based access control, and a React dashboard.
 
+Built as part of a backend development internship assignment.
+
 ## Features
 
 - User authentication with JWT tokens
@@ -26,7 +28,7 @@ A task management REST API built with Express, Prisma, and MySQL. Includes JWT a
 - React 18 with Vite
 - React Router
 - Axios
-- Context API for state management
+- Context API for authentication state
 
 ## Quick Start
 
@@ -194,7 +196,7 @@ Future enhancements:
 
 ## Deployment
 
-See `DEPLOYMENT.md` for production deployment options (Docker, Vercel, AWS, etc).
+See `DEPLOYMENT.md` for production deployment setup.
 
 ## Response Format
 
@@ -236,16 +238,10 @@ See `DEPLOYMENT.md` for production deployment options (Docker, Vercel, AWS, etc)
 - Ensure MySQL is running
 - Verify DATABASE_URL in .env
 
-**Port already in use**
-- Change PORT in .env or kill existing process
-
 **Prisma client error**
 ```bash
 npm run prisma:generate
 ```
-
-**CORS error**
-- Check FRONTEND_URL in .env matches your frontend
 
 ## Developer Commands
 
@@ -260,6 +256,3 @@ npm run dev              # Start Vite dev server
 npm run build           # Build for production
 ```
 
-## License
-
-private
